@@ -7,21 +7,21 @@
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("/img/culture.jpg");
+  background-image: url("/img/movie.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url("/img/travel.jpg");
+  background-image: url("/img/book.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url("/img/gaming.jpg");
+  background-image: url("/img/music.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -36,4 +36,10 @@
 
 .navbar .nav-link {
   color: #fff !important;
+}
+
+.content_resize {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 10px 10px 10px;
 }
