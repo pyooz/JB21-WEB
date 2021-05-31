@@ -47,27 +47,107 @@
             <li class="nav-item ">
               <a class="nav-link" aria-current="page" href="./celeb home.html"><b><i class="fas fa-home"></i> 홈</b></a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./msg.html"><b> MSG워너비</b></a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-gamepad"></i> 게임
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">가위바위보 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">스케치 게임</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">반응속도 테스트</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./oking.html"><b> 오킹</b></a>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-users"></i> 문화
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./life.html"><b> 샒의 삶</b></a>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-user-check"></i> 셀럽
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./msg.html">MSG워너비</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./oking.html">오킹</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./life.html">샒의 삶</a>
+                </li>
+              </ul>
             </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-plane"></i> 여행
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
           </ul>
+
         </div>
       </div>
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar END -->
 
-    <hr class="my-5">
+
 
     <!--Main layout-->
     <main class="mt-5">
       <div class="container">
+        <hr class="my-5">
+        <hr class="my-5">
         <!--Section: Content-->
         <section>
           <div class="row">
@@ -82,6 +162,7 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
+              <h4 class="text-start">프로필</h4>
               <p class="text-start">
                 <br>닉네임 : 샒의 삶
                 <br>본명 : 홍세림
@@ -100,8 +181,15 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
+                <h4 class="text-end">여행</h4>
                 <p class="text-end">
-                  바디프로필
+                  샒의 삶 또 다른 대표 콘텐츠 중 하나인 여행 콘텐츠입니다.
+                  <br>현재는 코로나로 인해서 여행 가는 영상이 없지만
+                  <br>코로나 이전에는 많은 곳을 여행 다니며 유튜브에 올렸었습니다.
+                  <br>샒의 삶이 간 여행은 유럽 여행, 다낭, 중국,
+                  <br>일본, LA, 뉴욕 등을 다녀왔습니다.
+                  <br>특히 유럽이나 뉴욕은 한 달이라는 긴 기간 동안
+                  <br>여행을 다녀와 많은 곳을 영상에 담아 보여주었습니다.
                 </p>
               </div>
             </div>
@@ -109,7 +197,7 @@
 
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/life badi.jpg" class="rounded float-start" width="500px" height="250px">
+                <img src="./img/life new.jpg" class="rounded float-start" width="400px" height="250px">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -122,9 +210,10 @@
 
         <section>
           <div class="row">
+
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/life move.jpg" class="rounded float-end" width="450px" height="250px">
+                <img src="./img/life move.jpg" class="rounded float-end" width="400px" height="250px">
                 <a href="#!"></a>
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -132,8 +221,15 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
+              <h4 class="text-start">이사</h4>
               <p class="text-start">
-                이사
+                이사 콘텐츠는 이사 후 자신의 집은 꾸미며 영상으로
+                <br>인기 있는 콘텐츠 중 하나입니다
+                <br>이사하고 뿐만이 아니라 중간에도 자신의 집을 다시 꾸미며
+                <br>구독자들에게 대신 만족을 채워주는 영상입니다.
+                <br> 최근에 이사를 다시 하여서 영상을 올렸습니다.
+                <br> 이번에는 자신의 쉬는 공간과 일하는 공간을 나누게 되어서
+                <br>사무실을 꾸미는 영상 또한 있습니다.
               </p>
             </div>
           </div>
@@ -145,8 +241,17 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
+                <h4 class="text-end">바디프로필</h4>
                 <p class="text-end">
-                  여행
+                  샒의 삶은 2020년 초에 번아웃으로 인해
+                  <br>마음을 다 잡기 위해서 바디프로필을 준비했습니다
+                  <br>자신의 생일인 7월 11일까지 100일정도 준비를
+                  <br>하고 바디프로필을 찍었습니다.
+                  <br>그녀는 100일간 다이어트 동안 먹었던 음식이나, 운동, 계획 등에
+                  <br>다이어트에 도움이 되는 것들을 알려주었다.
+                  <br>또한, 바디프로필 현장도 영상을 담아서 보여주었습니다.
+                  <br>바디프로필이 끝나고도 유지어터라는 영상을 올려
+                  <br>유지 법도 공유를 해주었습니다.
                 </p>
               </div>
             </div>
@@ -154,7 +259,7 @@
 
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/life new.jpg" class="rounded float-start" width="500px" height="250px">
+                <img src="./img/life badi.jpg" class="rounded float-start" width="450px" height="250px">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -169,12 +274,13 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <h4 class="text-end">추천영상 </h4>
+                <h4 class="text-end">유럽 여행 브이로그</h4>
                 <img src="./img/life us.jpg" class="rounded float-end" width="400px" height="250px">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
+              <p class="text-end">추천영상</p>
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
@@ -188,7 +294,7 @@
             </div>
           </div>
         </section>
-
+        <hr class="my-5">
       </div>
     </main>
     <!--Main layout-->
