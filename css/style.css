@@ -14,7 +14,7 @@
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url("/img/book.jpg");
+  background-image: url("/img/culturehome1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -42,4 +42,29 @@
   text-align: center;
   margin: 0 auto;
   padding: 0px 10px 10px 10px;
+}
+
+.box {
+  border-color: #e57373;
+  border-style: dashed;
+  margin: 5% auto;
+  padding: 2% 2% 0 2%;
+  width: 100%
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.smallp {
+  font-size: 80%;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:active {
+  color: black ;
 }
