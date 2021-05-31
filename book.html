@@ -10,6 +10,8 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <!-- MDBootstrap CSS -->
@@ -41,6 +43,20 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/60b49c946699c7280da9d341/1f70o79pp';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
 <body>
     <header>
         <!-- Navbar START -->
@@ -50,7 +66,7 @@
             <div class="container">
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="index.html">JB21</a>
+                <a class="navbar-brand" href="cul_index.html">JB21</a>
 
                 <!-- Toggle button -->
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -73,6 +89,29 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-mdb-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-gamepad"></i> 게임
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">가위바위보 게임</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">스케치 게임</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">반응속도 테스트</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-users"></i> 문화
                             </a>
                             <!-- Dropdown menu -->
@@ -84,10 +123,30 @@
                                     <a class="dropdown-item" href="music.html">음악</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="show.html">공연</a>
+                                    <a class="dropdown-item" href="book.html">도서</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="book.html">도서</a>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cul_index.html">문화 홈 바로가기</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-check"></i> 셀럽
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider" />
@@ -97,6 +156,30 @@
                                 </li>
                             </ul>
                         </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-plane"></i> 여행
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -104,16 +187,88 @@
         </nav>
         <!-- Navbar END -->
 
+        <hr class="my-5" />
+
+        <!-- 섹션 나누기 줄 -->
+        <div class="container">
+            <section class="text-center">
+                <h3 class="mb-5"><strong>3권의 도서를 소개합니다!</strong></h3>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="img/movie1.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>500일의 썸머</strong>(500 days of summer)</h5>
+                                <p class="card-text">
+                                    출연 : 조셉 고든 레빗(톰), 주이 데샤넬(썸머)...
+                                </p>
+                                <a href="movie.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="img/movie2.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>신과 함께</strong>(Along With the Gods)</h5>
+                                <p class="card-text">
+                                    출연 : 하정우(강림) 차태현(자홍)...
+                                </p>
+                                <a href="book.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="img/movie3.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>스타 이즈 본</strong>(A Star Is Born)</h5>
+                                <p class="card-text">
+                                    출연 : 브래들리 쿠퍼(잭슨), 레이디 가가(앨리)...
+                                </p>
+                                <a href="music.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- 섹션 나누기 줄 -->
+        <hr class="my-5" />
+        <!-- 섹션 나누기 줄 -->
+        </div>
+        </main>
+        <!--Main layout-->
+
         <!-- Footer -->
         <footer class="text-center text-white" style="z-index: 2000; background-color:#e57373">
             <!-- Grid container -->
             <div class="container p-4">
                 <!-- footer Text -->
-                <section class="mb-3">
+                <section class="mb-1">
                     <h3>Contact</h3>
                     <class class="contact_info">
-                        <span>E-mail: </span> <a href="#">real_pyj@naver.com</a><br>
-                        <span>Instagram: </span><a href="http://instagram.com/yoo.z1n" target="_blank">@yoo.z1n</a>
+                        <span>E-mail: </span> <a href="#" style="color: #fff;">real_pyj@naver.com</a><br>
+                        <span>Instagram: </span><a href="http://instagram.com/yoo.z1n" target="_blank"
+                            style="color: #fff;">@yoo.z1n</a>
                     </class>
                     </p>
                 </section>
