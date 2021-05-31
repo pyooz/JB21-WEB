@@ -17,8 +17,23 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="contents/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="./LOGO/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./LOGO/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./LOGO/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./LOGO/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./LOGO/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./LOGO/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./LOGO/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./LOGO/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./LOGO/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./LOGO/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./LOGO/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./LOGO/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./LOGO/favicon-16x16.png">
+  <link rel="manifest" href="./LOGO/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ASSG//LOGO/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -30,7 +45,7 @@
       <div class="container">
 
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="./celeb home.html">JB21 | 셀럽</a>
+        <a class="navbar-brand" href="./index.html">JB21 | 셀럽</a>
 
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -44,34 +59,122 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             <!-- Link -->
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./celeb home.html"><b><i class="fas fa-home"></i> 홈</b></a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i> 홈</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./msg.html"><b> MSG워너비</b></a>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./jb.html"><i class="bi bi-info-square"></i> JB21</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./oking.html"><b> 오킹</b></a>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-gamepad"></i> 게임
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">가위바위보 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">스케치 게임</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">반응속도 테스트</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./life.html"><b> 샒의 삶</b></a>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-users"></i> 문화
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-user-check"></i> 셀럽
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./msg.html">MSG워너비</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./oking.html">오킹</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./life.html">샒의 삶</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-plane"></i> 여행
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
           </ul>
+
         </div>
       </div>
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar END -->
 
+
     <hr class="my-5">
 
     <!--Main layout-->
     <main class="mt-5">
       <div class="container">
+        <hr class="my-5">
         <!--Section: Content-->
         <section>
           <div class="row">
-            <h1>오킹</h1>
+            <h1 class="text-center">오킹</h1>
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
                 <img src="./img/oking.jpg" class="rounded float-end" width="350px" height="350px">
@@ -82,14 +185,21 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
+              <h4 class="text-start">프로필</h4>
               <p class="text-start">
-                <br>닉네임 : 오킹
-                <br>본명 : 오병민
-                <br>출생일 : 1993.10.25일
-                <br>방송 시작일 : 2017년 11월 1일
-                <br>소속사 : 샌드박스
-                <br>팬네임 : 옼보단
-                <br>트위치와 유튜브에서 활동하는 인터넷 방송인이다
+                <strong>닉네임 :</strong> 오킹
+                <br>
+                <strong>본명 : </strong>오병민
+                <br>
+                <strong>출생일 :</strong> 1993.10.25일
+                <br>
+                <strong>방송 시작일 :</strong> 2017년 11월 1일
+                <br>
+                <strong>소속사 :</strong> 샌드박스
+                <br>
+                <strong>팬네임 :</strong> 옼보단
+                <br>
+                트위치와 유튜브에서 활동하는 인터넷 방송인이다
               </p>
             </div>
           </div>
@@ -101,15 +211,26 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
+                <h4 class="text-end">국토대장정</h4>
                 <p class="text-end">
-                  국토대장정
+                  2018년 서울 잠실에서 강릉까지 국토대장정을 했으며
+                  <br>당시 목표는 인지도 확보와 후원금 기부를 위해
+                  <br>사이즈가 큰 기획을 했습니다.
+                  <br>결과적으로 성공 무려 300km를 완주했으며
+                  <br>그 후유증으로 병원 신세를 면치 못하였고
+                  <br>그로부터 몇 개월 후 수원역에서 지스타가 열리는
+                  <br>부산 벡스코까지 다시 도전하였습니다.
+                  <br>첫 도전 때의 후유증과 부상으로 약간의 규칙을 도입했지만
+                  <br>오킹은 큰 부상 혹은 위급한 상황이 아니라면 되도록 걷는 것을 지향했고,
+                  <br>거리는 약 500km를 성공했습니다.
+                  <br>그리고 이번 연도 안에 독도 국토대장정을 할 계획을 세우고 있습니다.
                 </p>
               </div>
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/oking walk.jpg" class="rounded float-start" width="500px" height="250px">
+                <img src="./img/oking walk.jpg" class="rounded float-start" width="450px" height="300px">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -124,7 +245,7 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/oking a.jpg" class="rounded float-end" width="500px" height="250px">
+                <img src="./img/oking a.jpg" class="rounded float-end" width="400px" height="250px">
                 <a href="#!"></a>
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -132,8 +253,15 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
+              <h4 class="text-start">야방</h4>
               <p class="text-start">
-                야방
+                오킹은 야방을 매주 한 번씩은 하고 있습니다.
+                <br>야방 장소는 주로 본가에서 진행을 합니다.
+                <br>야방에서 하는 콘텐츠는 요리입니다.
+                <br>그동안 한 요리는 브리스킷, 푸아그라 순대나
+                <br>대왕 다코야키 등의 재미있는 요리를 합니다.
+                <br>혼자 진행을 하지만 사람이 10명 있는 것 같은 재미와
+                <br>허당끼로 시청자들을 웃기기도 합니다
               </p>
             </div>
           </div>
@@ -145,15 +273,22 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
+                <h4 class="text-end">썰</h4>
                 <p class="text-end">
-                  입담
+                  오킹은 자신의 이야기를 잘 이야기합니다.
+                  <br> 시청자들의 후원으로 주제가 하나 생기면 주제 하나로
+                  <br>짧으면 30분 길면 2시간을 이야기를 하는 경우도 있습니다.
+                  <br>오킹의 썰들 중에 가장 인기가 많은 것은 군대썰입니다.
+                  <br> 자신의 군대 생활을 이야기하면 군대를 2번 다녀왔냐는
+                  <br>소리를 들을 정도로 재미있고 다양합니다.
+                  <br>오킹의 군대썰들 중에 인기가 있는 것은 전쟁 날뻔한 썰입니다.
                 </p>
               </div>
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
-                <img src="./img/oking st.jpg" class="rounded float-start" width="500px" height="300px">
+                <img src="./img/oking st.jpg" class="rounded float-start" width="400px" height="250px">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
