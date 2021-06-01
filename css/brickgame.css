@@ -1,0 +1,30 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+} */
+body h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+body h2 {
+  color: rgb(206, 24, 24);
+  font-family: "Roboto", sans-serif;
+}
+#canvas {
+  border: 1px solid rgb(218, 22, 22);
+  padding: 15px;
+  border-radius: 20px;
+}
+#canvas1 {
+  border: 1px solid rgb(55, 0, 252);
+  border-radius: 20px;
+  margin-top: 15px;
+  display: none;
+}
