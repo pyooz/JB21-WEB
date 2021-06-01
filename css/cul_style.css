@@ -1,0 +1,66 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("/img/movie3-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("/img/culturehome1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("/img/b3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.content_resize {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 10px 10px 10px;
+}
+
+.box {
+  border-color: #e57373;
+  border-style: dashed;
+  margin: 5% auto;
+  padding: 2% 2% 0 2%;
+  width: 100%
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.smallp {
+  font-size: 80%;
+}
+
+/* .navbar .nav-link {
+  color: #fff !important;
+} */
