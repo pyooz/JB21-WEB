@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  user-select: none;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e57373;
+  font-size: 20px;
+  color: white;
+}
+.box .descriptionContainer {
+  position: relative;
+}
+.box .description {
+  font-size: 27px;
+}
+.box .result {
+  font-size: 18px;
+}
+.box .summary {
+  background: none;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+}
+.box .summary:focus {
+  outline: none;
+}
+.box .summary:hover {
+  text-decoration: underline;
+}
+
+.loader {
+  display: none;
+  position: absolute;
+  top: 40%;
+  right: -30px;
+}
+.loader .dot {
+  display: inline-block;
+  width: 3px !important;
+  height: 3px;
+  margin-left: -8px;
+  background: white;
+  animation: dot-appear 0.6s infinite alternate ease-out;
+  opacity: 0;
+}
+.loader .dot:nth-child(2) {
+  animation-delay: 200ms;
+}
+.loader .dot:nth-child(3) {
+  animation-delay: 300ms;
+}
+.loader .dot:nth-child(4) {
+  animation-delay: 400ms;
+}
+@keyframes dot-appear {
+  0%,
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
