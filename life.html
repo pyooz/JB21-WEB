@@ -17,8 +17,23 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="contents/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="./LOGO/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./LOGO/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./LOGO/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./LOGO/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./LOGO/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./LOGO/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./LOGO/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./LOGO/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./LOGO/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./LOGO/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./LOGO/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./LOGO/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./LOGO/favicon-16x16.png">
+  <link rel="manifest" href="./LOGO/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ASSG//LOGO/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -41,13 +56,18 @@
 
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
             <!-- Link -->
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="./celeb home.html"><b><i class="fas fa-home"></i> 홈</b></a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"><i class="fas fa-home"></i> 홈</a>
             </li>
 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./jb.html"><i class="bi bi-info-square"></i> 소개하기</a>
+            </li>
+
+            <!-- Dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                 aria-expanded="false">
@@ -108,6 +128,12 @@
                 <li>
                   <a class="dropdown-item" href="./life.html">샒의 삶</a>
                 </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./celeb home.html">셀럽 홈 바로가기</a>
+                </li>
               </ul>
             </li>
             <!-- Dropdown -->
@@ -132,9 +158,7 @@
                 </li>
               </ul>
             </li>
-
           </ul>
-
         </div>
       </div>
       <!-- Container wrapper -->
@@ -151,7 +175,7 @@
         <!--Section: Content-->
         <section>
           <div class="row">
-            <h1>샒의 삶</h1>
+            <h1 class="text-center">샒의 삶</h1>
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
                 <img src="./img/life pro.jpg" class="rounded float-end" width="350px" height="350px">
@@ -164,12 +188,18 @@
             <div class="col-md-6 gx-5 mb-4">
               <h4 class="text-start">프로필</h4>
               <p class="text-start">
-                <br>닉네임 : 샒의 삶
-                <br>본명 : 홍세림
-                <br>출생일 : 1994.7.11
-                <br>방송 시작일 : 2017년 11월 1일
-                <br>소속사 : 아이스 크리에이티브
-                <br>여성 일상 유튜브 크리에이터. 메이크업, 요리, 여행, 자취, 인테리어, 문구 제품 제작 등 다양한 컨텐츠를 기획 및 제작한다.
+                <strong> 닉네임 :</strong>샒의 삶
+                <br>
+                <strong>본명 :</strong> 홍세림
+                <br>
+                <strong>출생일 :</strong> 1994.7.11
+                <br>
+                <strong>방송 시작일 :</strong> 2017년 11월 1일
+                <br>
+                <strong>소속사 :</strong> 아이스 크리에이티브
+                <br>여성 일상 유튜브 크리에이터.
+                <br>메이크업, 요리, 여행, 자취, 인테리어, 문구 제품 제작 등
+                <br>다양한 컨텐츠를 기획 및 제작한다.
               </p>
             </div>
           </div>
@@ -276,7 +306,7 @@
               <div class="bg-image hover-overlay" data-mdb-ripple-color="light">
                 <h4 class="text-end">유럽 여행 브이로그</h4>
                 <img src="./img/life us.jpg" class="rounded float-end" width="400px" height="250px">
-                <a href="#!">
+                <a href="https://youtu.be/VNHmnVgjV-s">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
