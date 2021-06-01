@@ -7,7 +7,7 @@
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("/img/movie.jpg");
+  background-image: url("/img/movie3-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -21,7 +21,7 @@
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url("/img/music.jpg");
+  background-image: url("/img/b3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
