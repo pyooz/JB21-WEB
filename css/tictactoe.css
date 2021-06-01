@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  justify-content: center;
+  background-color: #e57373;
+  border: 3px solid white;
+  font-size: 80px;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+}
