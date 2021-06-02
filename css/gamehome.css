@@ -7,21 +7,21 @@
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("/img/culture.jpg");
+  background-image: url("/img/gamepad-carousel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url("/img/travel.jpg");
+  background-image: url("/img/tic-tac-toe-carousel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url("/img/gaming.jpg");
+  background-image: url("/img/gaming-carousel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -32,11 +32,6 @@
   #introCarousel {
     margin-top: -58.59px;
   }
-}
-
-.weatherwidget-io {
-  width: 100% auto;
-  margin: 0 2% 3% 2%
 }
 
 /* .navbar .nav-link {

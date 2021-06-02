@@ -14,7 +14,7 @@
     <!-- MDBootstrap CSS -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gamehome.css" />
     <!-- <link rel="stylesheet" href="css/tictactoe.css" /> -->
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -164,8 +164,76 @@
       </div>
       <!-- Container wrapper -->
     </nav>
-    <hr class="my-5" />
     <!-- Navbar END --> 
+
+        <!-- Carousel wrapper -->
+        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+          </ol>
+    
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">여러 게임들을 즐기세요!</h1>
+                    <h5 class="mb-4">수많은 게임들이 기다립니다.</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">가위바위보 · 틱택토 · 지뢰찾기 </h1>
+                    <h5 class="mb-4">유명한 게임들!</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">반응속도 테스트 · 벽돌깨기</h1>
+                    <h5 class="mb-4">다양하고 재미있는 게임들!</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Inner -->
+    
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- Carousel wrapper -->
+      </header>
+      <!-- Carousel END -->
 
   <!--Main layout-->
   <main class="mt-5">
@@ -340,6 +408,22 @@
     </div>
   </main>
   <!--Main layout-->
+
+  <!-- DISQUS -->
+  <div class="container">
+    <div id="disqus_thread"></div>
+<script>
+    (function() { // 아래는 수정하지 말것
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jbproject.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <hr class="my-5" />
+  </div>
+  <!-- DISQUS END -->
 
     <!-- Footer -->
   <footer class="text-center text-white" style="z-index: 2000; background-color:#e57373">
