@@ -2,8 +2,6 @@ const box = document.querySelector(".box");
 const boxParagraph = document.querySelector(".description");
 const resultParagraph = document.querySelector(".result");
 const loader = document.querySelector(".loader");
-const summary = document.querySelector(".summary");
-const activeSummary = document.getElementsByClassName('summary--active');
 
 const resultsArray = [];
 const getRandomTime = () => {
@@ -42,13 +40,6 @@ const tooFastState = () => {
    resultParagraph.textContent = `클릭하여 다시 시작하세요.`;
    loader.style.display = "none";
 };
-const showSummary = (e) => {
-   summary.textContent = 'exit the leaderboard'
-   box.style.backgroundColor = "#6734BA";
-   resultParagraph.textContent = "";
-   boxParagraph.textContent = "Leaderboard:";
-   resultParagraph.textContent = `${resultsArray}`
-}
 
 let startTime;
 let waitingTime;
@@ -56,13 +47,6 @@ let timeoutIndex;
 let flag = false;
 const start = (e) => {
 
-   if(e.target.classList.contains('active')) {
-      showSummary();
-      return;
-   }
-   else if(flag == false){
-      setInitialPink();
-   }
    if (flag) {
       const endTime = new Date().getTime();
       let reactionTime = endTime - startTime - waitingTime;
@@ -82,6 +66,3 @@ const start = (e) => {
    }
 };
 box.addEventListener("mousedown", start);
-summary.addEventListener("mousedown", (e) => {
-   e.target.classList.toggle('active');
-});
