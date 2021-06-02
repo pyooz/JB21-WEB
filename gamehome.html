@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>JB21 | 게임 홈</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDBootstrap CSS -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/gamehome.css" />
+    <!-- <link rel="stylesheet" href="css/tictactoe.css" /> -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="contents/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <!-- Navbar START -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-lg-block fixed-top"
+      style="z-index: 2000; background-color:#e57373">
+      <!-- Container wrapper -->
+      <div class="container">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="gamehome.html">JB21 | 게임</a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <!-- Link -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i> 홈</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="jb.html"><i class="fas fa-info-circle"></i> 소개</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-gamepad"></i> 게임
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="rpsgame.html"><i class="fas fa-dice-one"></i> 가위바위보 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="tictactoe.html"><i class="fas fa-dice-two"></i> 틱택토 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="minesweeper.html"><i class="fas fa-dice-three"></i> 지뢰찾기 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="reaction.html"><i class="fas fa-dice-four"></i> 반응속도 테스트 게임</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="brickgame.html"><i class="fas fa-dice-five"></i> 벽돌깨기 게임</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="gamehome.html"><i class="fas fa-dice"></i> 게임 홈</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-users"></i> 문화
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="movie.html">영화</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="music.html">음악</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="book.html">도서</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cul_index.html">문화 홈</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-user-check"></i> 셀럽
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./msg.html">MSG워너비</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./oking.html">오킹</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./life.html">샒의 삶</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./celeb home.html">셀럽 홈</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-plane"></i> 여행
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="jeju.html">JEJU</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="gangneung.html">GANGNEUNG</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="daejeon.html">DAEJEON</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="seoul.html">SEOUL</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="todolist/todo.html">TODO-LIST</a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar END --> 
+
+        <!-- Carousel wrapper -->
+        <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+          </ol>
+    
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">여러 게임들을 즐기세요!</h1>
+                    <h5 class="mb-4">수많은 게임들이 기다립니다.</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">가위바위보 · 틱택토 · 지뢰찾기 </h1>
+                    <h5 class="mb-4">유명한 게임들!</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">반응속도 테스트 · 벽돌깨기</h1>
+                    <h5 class="mb-4">다양하고 재미있는 게임들!</h5>
+                    <!-- <a class="btn btn-outline-light btn-lg m-2" href="#"
+                      role="button" rel="nofollow">자세히 알아보기</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Inner -->
+    
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- Carousel wrapper -->
+      </header>
+      <!-- Carousel END -->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container text-center">
+      <!--Section: Content-->
+      <!-- <section>
+        <hr class="my-5" />
+        <h1><strong>JB21 게임 홈 소개 영상</strong></h1>
+        <hr class="my-5" />
+        <div class="ratio ratio-16x9">
+          <video controls width="250">
+        
+            <source src="vid/gamevid.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        </div> -->
+
+        <hr class="my-5" />
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+              <img src="img/gaming.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4 text-center">
+            <h4><strong>JB21 게임 홈에 오신 것을 환영합니다!</strong></h4>
+            <p class="text-muted">
+              여러 다양한 게임들을 만나보세요.
+              <br>간단하게 즐길 수 있고 중독성 있는 것들로 모아봤어요.
+              <br>흥미롭고 재미있는 게임의 세계에 빠져보세요~
+              <br>HTML5, CSS3, JS가 사용되었습니다!
+            </p>
+            <p><strong>게임 종류</strong></p>
+            <p class="text-muted">
+              가위바위보 게임, 틱택토 게임,
+              <br>지뢰찾기 게임, 벽돌깨기 게임,
+              <br>반응속도 테스트 게임
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 섹션 나누기 줄 -->
+
+      <hr class="my-5" />
+
+      <!-- 섹션 나누기 줄 -->
+
+      <div class="container">
+      <section class="text-center">
+        <h4 class="mb-5"><strong>원하는 곳으로 바로 이동하세요!</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/rps.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>가위바위보 게임하기</strong></h5>
+                <p class="card-text">
+                  모르는 사람이 없는 매우 공평한 게임<br>지금 바로 즐겨보세요!
+                </p>
+                <a href="rpsgame.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/ttt-card.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>틱택토 게임하기</strong></h5>
+                <p class="card-text">
+                  간단하면서도 중독성 있는 게임!
+                  <br>한번 살펴보세요!
+                </p>
+                <a href="tictactoe.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/mine-card.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>지뢰찾기 게임하기</strong></h5>
+                <p class="card-text">
+                  윈도우에 기본으로 깔려 있는 그 게임!
+                  <br>정말 유명한 게임이죠. 웹에서 즐겨보세요!
+                </p>
+                <a href="minesweeper.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/reaction-card.PNG" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>반응속도 테스트 게임하기</strong></h5>
+                <p class="card-text">
+                  당신은 얼마나 빠른가요?
+                  <br>당신의 반응속도를 시험해보세요!
+                </p>
+                <a href="reaction.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/block.PNG" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>벽돌깨기 게임하기</strong></h5>
+                <p class="card-text">
+                  이 게임도 모르는 사림이 없죠.
+                  <br>아래 판자를 직접 조작하면서 즐겨보세요!
+                </p>
+                <a href="brickgame.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/gaming.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>게임 홈으로 돌아가기</strong></h5>
+                <p class="card-text">
+                  게임 홈에 대해 소개합니다.
+                  <br>지금 바로 둘러보세요!
+                </p>
+                <a href="gamehome.html" class="btn btn-primary" style="background-color: #e57373;">바로가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <hr class="my-5" />
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!-- DISQUS -->
+  <div class="container">
+    <div id="disqus_thread"></div>
+<script>
+    (function() { // 아래는 수정하지 말것
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jbproject.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <hr class="my-5" />
+  </div>
+  <!-- DISQUS END -->
+
+    <!-- Footer -->
+  <footer class="text-center text-white" style="z-index: 2000; background-color:#e57373">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- footer Text -->
+      <section class="mb-4">
+        <p>
+          재미를 원하세요? 정보를 원하세요? <br>무엇을 원하든 그것은 JB21에 있습니다. <br>게임, 문화, 셀럽, 여행에 이르기까지<br>흥미로운 JB21 웹사이트에 어서오세요!
+        </p>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      Copyright © 2021 -
+      <a class="text-white">JB21 Team</a>
+    </div>
+    <!-- footer Text END -->
+
+  </footer>
+  <!-- Footer END -->
+</div>
+
+    <!-- MDB JS -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom JS -->
+    <!-- <script type="text/javascript" src="js/tictactoe.js"></script> -->
+</body>
+</html>
