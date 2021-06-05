@@ -88,14 +88,14 @@ function contains(selector, text) {
 		moves += 1;
 		score[turn] += this.identifier;
 		if (win(this)) {
-			alert('승리자는 플레이어 ' + turn + '입니다!');
+			document.getElementById('turn').innerHTML = '<h1>플레이어 X 의 턴<br>플레이어 ' + turn + ' 승리!';
 			startNewGame();
 		} else if (moves === N_SIZE * N_SIZE) {
-			alert("비겼습니다!");
+			document.getElementById('turn').innerHTML = '<h1>플레이어 X 의 턴<br>비겼습니다!';
 			startNewGame();
 		} else {
 			turn = turn === "X" ? "O" : "X";
-			document.getElementById('turn').innerHTML = '<h1>플레이어 ' +  turn + ' 의 턴 </h1>';
+			document.getElementById('turn').innerHTML = '<h1>플레이어 ' +  turn + ' 의 턴 <br> <br></h1>';
 		}
 	}
 
