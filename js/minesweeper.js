@@ -47,7 +47,7 @@ function checkLevelCompletion() {
       }
   }
   if (levelComplete) {
-    alert("You Win!");
+    alert("승리!");
     revealMines();
   }
 }
@@ -56,7 +56,6 @@ function clickCell(cell) {
   //사용자 지뢰 클릭시
   if (cell.getAttribute("data-mine")=="true") {
     revealMines();
-    alert("이런! 지뢰를 밟았어요 ㅠ.ㅠ");
   } else {
     cell.className="clicked";
     //인접 지뢰 수 계산 표시
